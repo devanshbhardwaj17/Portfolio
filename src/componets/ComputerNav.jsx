@@ -1,11 +1,9 @@
 import React from 'react'
-import { FaBeer, FaMobile, FaMobileAlt, FaSnapchat, FaSnapchatGhost } from "react-icons/fa";
+import { FaBeer, FaCalendarAlt, FaMobile, FaMobileAlt } from "react-icons/fa";
 import {
-    FaFacebookF,
     FaInstagram,
     FaTwitter,
     FaLinkedinIn,
-    FaYoutube,
     FaGithub,
     FaWhatsapp,
     FaCalendar,
@@ -15,10 +13,11 @@ import {
 } from "react-icons/fa";
 import { FaEnvelope, FaRegEnvelope } from "react-icons/fa";
 import pic3 from '../Photo/Mypic2.jpeg'
+import Element from './Element';
 
 export default function ComputerNav() {
     return (
-        <div className=' bg-gray-700 bg-opacity-30 w-[20%] h-[730px] p-4 my-16 shadow-xl rounded-lg overflow-hidden sticky top-16'>
+        <div className=' bg-gray-700 bg-opacity-30 w-[20%] h-[730px] p-4 shadow-xl rounded-lg overflow-hidden sticky top-16'>
             <div className='py-3 border-b-2'>
                 <div className=' flex justify-center'>
                     <div className=' h-[220px] w-[200px] bg-gray-800 bg-opacity-30 rounded-xl shadow-2xl overflow-hidden bg-cover bg-center' style={{ backgroundImage: `url(${pic3})` }}>
@@ -30,38 +29,54 @@ export default function ComputerNav() {
                 </div>
             </div>
             <div className=' py-3'>
-                <div className=' flex items-center gap-4'>
-                    <FaRegEnvelope className=' text-5xl text-white bg-gray-500 bg-opacity-40 px-2 rounded-xl shadow-xl' />
-                    <p className=' text-white'><span className=' text-lg font-semibold'>Email</span><br /><span>devanshb661@gamil.com</span></p>
-                </div>
-                <div className=' flex items-center gap-4 mt-5'>
-                    <FaMobileAlt className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl shadow-xl' />
-                    <p className=' text-white'><span className=' text-lg font-semibold'>Mobile</span><br /><span>+91 7820061773</span></p>
-                </div>
-                <div className=' flex items-center gap-4 mt-5'>
-                    <FaRegCalendarAlt className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl' />
-                    <p className=' text-white'><span className=' text-lg font-semibold'>Date of Birth</span><br /><span>25-07-2005</span></p>
-                </div>
-                <div className=' flex items-center gap-4 my-5'>
-                    <FaMapMarkerAlt className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl' />
-                    <p className=' text-white'><span className=' text-lg font-semibold'>Location</span><br /><span>Kasganj-207403, UP</span></p>
-                </div>
-                <div className=' mt-8 flex justify-center gap-4 '>
-                    <a href="https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09">
-                        <FaTwitter className=' shadow-xl text-white hover:bg-blue-700 bg-gray-500 bg-opacity-40 text-3xl p-1 rounded-full' />
-                    </a>
-                    <a href="https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg==">
-                        <FaInstagram className=' shadow-xl text-white hover:bg-gradient-to-br from-[#feda75] via-[#d62976] to-[#4f5bd5] bg-gray-500 bg-opacity-40 text-3xl p-1 rounded-full' />
-                    </a>
-                    <a href="https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-                        <FaLinkedinIn className=' shadow-xl text-white hover:bg-blue-700 hover:bg-opacity-100 bg-gray-500 bg-opacity-40 text-3xl p-1 rounded-full' />
-                    </a>
-                    <a href="https://github.com/devanshbhardwaj17">
-                        <FaGithub className=' shadow-xl text-white hover:bg-black bg-gray-500 bg-opacity-40 text-3xl p-1 rounded-full' />
-                    </a>
-                    <a href="https://wa.me/7820061773">
-                        <FaWhatsapp className=' shadow-xl text-white hover:bg-green-600 bg-gray-500 bg-opacity-40 text-3xl p-1 rounded-full' />
-                    </a>
+
+                <Element
+                    icon={<FaRegEnvelope />}
+                    title="Email"
+                    value="devanshb661@gmail.com"
+                />
+                <Element
+                    icon={<FaMobileAlt />}
+                    title="Mobile"
+                    value="+91 7820061773"
+                />
+                <Element
+                    icon={<FaRegCalendarAlt />}
+                    title="Date of Birth"
+                    value="25-07-2005"
+                />
+                <Element
+                    icon={<FaMapMarkerAlt />}
+                    title="Location"
+                    value="Kasganj, Uttar Pradesh"
+                />
+                <div className=' mt-8 flex flex-wrap justify-center gap-4 '>
+                    <div className='bg-gray-500 bg-opacity-40 hover:bg-blue-700 p-2 rounded-full shadow-2xl'>
+                        <a href="https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09">
+                            <FaTwitter className='  text-white  text-2xl' />
+                        </a>
+                    </div>
+                    <div className='bg-gray-500 bg-opacity-40 hover:bg-gradient-to-br from-[#feda75] via-[#d62976] to-[#4f5bd5] p-2 rounded-full shadow-2xl'>
+                        <a href="https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg==">
+                            <FaInstagram className='  text-white  text-2xl' />
+                        </a>
+                    </div>
+                    <div className='bg-gray-500 bg-opacity-40 hover:bg-blue-700 p-2 rounded-full shadow-2xl'>
+                        <a href="https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                            <FaLinkedinIn className='  text-white  text-2xl' />
+                        </a>
+                    </div>
+                    <div className='bg-gray-500 bg-opacity-40 hover:bg-black p-2 rounded-full shadow-2xl'>
+                        <a href="https://github.com/devanshbhardwaj17">
+                            <FaGithub className='  text-white  text-2xl' />
+                        </a>
+                    </div>
+                    <div className='bg-gray-500 bg-opacity-40 hover:bg-green-600 p-2 rounded-full shadow-2xl'>
+                        <a href="https://wa.me/7820061773">
+                            <FaWhatsapp className='  text-white  text-2xl' />
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
