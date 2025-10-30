@@ -64,7 +64,7 @@ export default function ComputerNav() {
                         <SocialMediaElement
                             link="https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                             icon={<FaLinkedinIn />}
-                            color="bg-blue-700"
+                            color="blue-700"
                         />
                         <SocialMediaElement
                             link="https://github.com/devanshbhardwaj17"
