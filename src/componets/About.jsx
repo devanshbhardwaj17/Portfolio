@@ -84,16 +84,16 @@ export default function About() {
                     <div className=' flex transition-transform duration-700 ease-in-out'
                     >
                         <ReviewCard2
-                            pic={Nikhil}
-                            name="Nikhil"
-                            massage="Devansh is a very good developer. He build the extra odinery web sites"
-                            city="Budaun"
-                        />
-                        <ReviewCard2
                             name="Praveen Shakya"
                             massage="Devansh is a very good developer. He build the extra odinery web sites."
                             city="Budaun"
                             pic={Praveen}
+                        />
+                        <ReviewCard2
+                            pic={Nikhil}
+                            name="Nikhil Sharma"
+                            massage="Devansh is a very good developer. He build the extra odinery web sites"
+                            city="Budaun"
                         />
                         <ReviewCard2
                             name="Abhay Pratap"
