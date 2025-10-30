@@ -79,8 +79,8 @@ export default function About() {
                     />
                 </div>
             </div>
-            <div className=' w-full p-3 flex flex-col justify-center items-center'>
-                <div className=' relativ overflow-hidden w-[70%] h-auto'>
+            <div className=' w-full sm:p-3 py-3 flex flex-col justify-center items-center md:hidden'>
+                <div className=' relativ overflow-hidden sm:w-[75%] w-full h-auto'>
                     <div className=' flex transition-transform duration-700 ease-in-out'
                     >
                         <ReviewCard2
@@ -109,7 +109,7 @@ export default function About() {
                         />
                     </div>
                 </div>
-                <div className=' flex absolute justify-between w-[50%]'>
+                <div className=' flex absolute w-full justify-between px-[10%]'>
                     <button className=' text-white bg-slate-600 opacity-70 font-semibold rounded-full p-1'
                     onClick={prevSlide}><ChevronLeft /></button>
                     <button className=' text-white bg-slate-600 opacity-70 font-semibold rounded-full p-1'
