@@ -48,7 +48,7 @@ export default function About() {
                     />
                 </div>
             </div>
-            <h2 className=' lg:text-2xl font-bold text-white mb-2 text-4xl'>Testimonials</h2>
+            <h2 className=' lg:text-2xl font-bold text-white mb-2 text-4xl mt-5 md:mt-0 '>Testimonials</h2>
             <div className=' hidden md:block'>
                 <div className=' my-3 p-2 overflow-hidden flex justify-around flex-wrap'>
                     <ReviewCard

@@ -19,13 +19,13 @@ export default function Conctact() {
                 <p className=' text-white text-3xl font-bold'>Contact Form</p>
             </div>
             <form action="" className=' mx-7 mb-7 py-3   flex flex-wrap justify-evenly bg-gray-700 rounded-2xl'>
-                <input type="text" name="" id="" placeholder='Name' className=' text-lg w-[45%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300' />
-                <input type="text" name="" id="" placeholder='Address' className=' text-lg w-[45%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300' />
-                <input type="text" name="" id="" placeholder='Email' className=' text-lg w-[45%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 my-3' />
-                <input type="text" name="" id="" placeholder='Mobile' className=' text-lg w-[45%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 my-3' />
-                <textarea name="" id="" rows={8} placeholder='Message' className=' text-lg w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300' />
-                <div className=' w-full px-5 mt-3'>
-                    <button className='  bg-gray-600 bg-opacity-90 text-xl font-semibold font-sans shadow-2xl px-3 rounded-lg float-end text-yellow-500 flex gap-3'>
+                <input type="text" name="" id="" placeholder='Name' className=' text-lg md:w-[45%] w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
+                <input type="text" name="" id="" placeholder='Address' className=' text-lg md:w-[45%] w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
+                <input type="text" name="" id="" placeholder='Email' className=' text-lg md:w-[45%] w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-3 my-2' />
+                <input type="text" name="" id="" placeholder='Mobile' className=' text-lg  md:w-[45%] w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-3 my-2' />
+                <textarea name="" id="" rows={8} placeholder='Message' className=' text-lg w-[94%] bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
+                <div className=' w-full px-5 mt-3 flex justify-center md:justify-end'>
+                    <button className='  bg-gray-600 bg-opacity-90 md:text-xl font-semibold font-sans shadow-2xl md:px-3 text-center w-full md:w-auto text-3xl rounded-lg text-yellow-500 flex justify-center md:justify-start gap-3'>
                         <FaPaperPlane className=' p-1 text-3xl'/><p><span></span>Send Message</p>
                     </button>
                 </div>
