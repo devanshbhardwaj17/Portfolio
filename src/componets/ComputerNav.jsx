@@ -50,7 +50,7 @@ export default function ComputerNav() {
                             value="Kasganj, Uttar Pradesh"
                         />
                     </div>
-                    <div className=' md:hidden  mt-4 hidden sm:flex flex-wrap justify-center gap-4 '>
+                    <div className=' md:hidden  mt-4 hidden sm:flex justify-center gap-4 overflow-hidden'>
                         <SocialMediaElement
                             link="https://x.com/17_devansh?t=2YR4UjxtPAXxlUQq8U0lwA&s=09"
                             icon={<FaTwitter />}
