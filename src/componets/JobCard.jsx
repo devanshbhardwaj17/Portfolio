@@ -3,13 +3,13 @@ import React from 'react'
 
 export default function JobCard(props) {
   return (
-    <div className=' p-2 w-full sm:w-[48%] my-2 sm:my-0 bg-gray-800 bg-opacity-50 rounded-md shadow-xl flex gap-3'>
-      <div className=' flex justify-center items-center'>
-        <img src={props.image} alt="" className=' sm:w-24 w-28'/>
-      </div>
-      <div className=' p-2'>
-        <h2 className='text-xl font-semibold text-white font-sans'>{props.title}</h2>
-        <p className=' text-white font-sans'>{props.dis}</p>
+    <div className=' md:w-[45%] w-full bg-gray-800 bg-opacity-50 rounded-md shadow-xl px-2 py-1'>
+      <div className=' flex gap-4 items-center'>
+        <img src={props.image} alt="" className=' md:w-[100px] w-[60px] ' />
+        <div>
+          <h2 className=' text-2xl font-semibold text-white'>{props.title}</h2>
+          <p className=' text-gray-200 text-sm md:text-base'>{props.value}</p>
+        </div>
       </div>
     </div>
   )

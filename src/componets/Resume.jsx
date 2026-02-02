@@ -7,7 +7,7 @@ import ProgrammingLanage from './ProgrammingLanage'
 
 export default function Resume() {
     return (
-        <div className='py-2 px-5 font-sans'>
+        <div className='py-2 px-2 font-sans'>
             <h2 className=' text-3xl font-bold text-white'>Resume</h2>
             <div className='w-[10%] p-0.5 bg-[rgb(255,215,0)] my-3 rounded-lg'></div>
             <div className=''>
@@ -15,19 +15,47 @@ export default function Resume() {
                     <FaBook className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl shadow-xl' />
                     <p className=' text-white text-2xl font-bold'>Education</p>
                 </div>
-                <div className=' border-l-2 border-white px-5 pt-5 mx-5'>
-                    <div className=' flex items-center gap-4 mt-7'>
-                        <FaCircle className=' text-2xl text-yellow-100  bg-gray-500 bg-opacity-40 p-1 rounded-full shadow-xl' />
-                        <p className=' font-sans font-semibold text-white'><span className=' font-bold text-xl'>Bachelor of Computer Applications ( BCA )</span><br /><span className=' text-yellow-200'>2022-2025</span><br />BIMT College, Univercity- MJPRU</p>
+                <div className=' border-l-2 border-white pl-2 pt-5 ml-5'>
+                    <div className=' flex gap-4 mt-7'>
+                        <div>
+                            <div className='p-1.5 bg-gray-500 bg-opacity-40 rounded-full mt-1'>
+                                <div className=' p-2 bg-yellow-100 rounded-full'>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className=' text-xl font-semibold text-white'>Bachelor of Computer Application (BCA)</p>
+                            <p className=' font-semibold text-yellow-200'>2022-2025</p>
+                            <p className=' text-white'>BIMT College Budaun, Univercity- MJPRU</p>
+                        </div>
                     </div>
-                    <div className=' flex items-center gap-4 mt-7'>
-                        <FaCircle className=' text-2xl text-yellow-100  bg-gray-500 bg-opacity-40 p-1 rounded-full shadow-xl' />
-                        <p className=' font-sans font-semibold text-white'><span className=' font-bold text-xl'>Intermediate</span><br /><span className=' text-yellow-200'>2021-2022</span><br />SSPD Inter College, Kasganj</p>
+                    <div className=' flex gap-4 mt-7'>
+                        <div>
+                            <div className='p-1.5 bg-gray-500 bg-opacity-40 rounded-full mt-1'>
+                                <div className=' p-2 bg-yellow-100 rounded-full'>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className=' text-xl font-semibold text-white'>Intermediate</p>
+                            <p className=' font-semibold text-yellow-200'>2021-2022</p>
+                            <p className=' text-white'>SSPD Inter College, Kasganj - UP Board of Education</p>
+                        </div>
                     </div>
-                    <div className=' flex items-center gap-4 mt-7'>
-                        <FaCircle className=' text-2xl text-yellow-100  bg-gray-500 bg-opacity-40 p-1 rounded-full shadow-xl' />
-                        <p className=' font-sans font-semibold text-white'><span className=' font-bold text-xl'>High School </span><br /><span className=' text-yellow-200'>2019-2020</span><br />SSPD Inter College, Kasganj</p>
+                    <div className=' flex gap-4 mt-7'>
+                        <div>
+                            <div className='p-1.5 bg-gray-500 bg-opacity-40 rounded-full mt-1'>
+                                <div className=' p-2 bg-yellow-100 rounded-full'>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className=' text-xl font-semibold text-white'>High School</p>
+                            <p className=' font-semibold text-yellow-200'>2019-2020</p>
+                            <p className=' text-white'>SSPD Inter College, Kasganj - UP Board of Education</p>
+                        </div>
                     </div>
+                    
                 </div>
                 <Myskill />
                 <Frontend />

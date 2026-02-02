@@ -1,15 +1,14 @@
-import { ChevronLeft } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export default function Navbar() {
-    return (
-        <div className=' flex flex-wrap justify-between items-center'>
-            <div className=' px-4 mt-3'>
-                <h1 className=' sm:text-3xl text-2xl font-sans font-semibold text-white  bg-gray-800 bg-opacity-90 px-5 rounded-lg'>Portfolio</h1>
-            </div>
-            <div className=' bg-gray-800 bg-opacity-90 md:w-[50%] w-full float-end sm:rounded-bl-xl sm:py-3 shadow-sm shadow-[#565656] mt-2 sm:mt-0 mx-3 py-1 rounded-2xl sm:rounded-none sm:mx-0'>
-                <ul className=' flex justify-evenly items-center font-sans'>
+export default function Header() {
+  return (
+    <div className=' w-full flex flex-wrap justify-between items-end pl-3 '>
+        <div className=' mt-3 md:mt-0'>
+            <p className=' md:text-3xl text-2xl font-sans font-semibold text-white  bg-gray-800 bg-opacity-90 px-5 rounded-lg'>Portfolio</p>
+        </div>
+        <div className=' lg:w-[50%] w-[60%] hidden md:block bg-gray-800 bg-opacity-90 py-3 shadow-sm shadow-[#565656] rounded-bl-lg'>
+            <ul className=' flex justify-evenly items-center font-sans'>
                     <NavLink
                     to="/"
                     className={({isActive})=>` ${isActive ? "text-yellow-200 text-xl font-semibold" : " text-white text-lg"}`}
@@ -36,8 +35,8 @@ export default function Navbar() {
                     >                    
                     <li>Contact</li>
                     </NavLink>
-                </ul>
-            </div>
+            </ul>
         </div>
-    )
+    </div>
+  )
 }

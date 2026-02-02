@@ -109,11 +109,6 @@ export default function ComputerNav() {
                         color="bg-blue-700"
                     />
                     <SocialMediaElement
-                        link="https://www.instagram.com/devanshbhardwaj17?igsh=MWptNjk5eDdjcjYwYg=="
-                        icon={<FaInstagram />}
-                        color="bg-gradient-to-br from-[#feda75] via-[#d62976] to-[#4f5bd5]"
-                    />
-                    <SocialMediaElement
                         link="https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                         icon={<FaLinkedinIn />}
                         color="bg-blue-700"
