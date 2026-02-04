@@ -2,6 +2,7 @@ import React from 'react'
 
 
 export default function JobCard(props) {
+  //Done
   return (
     <div className=' md:w-[45%] w-full bg-gray-800 bg-opacity-50 rounded-md shadow-xl px-2 py-1'>
       <div className=' flex gap-4 items-center'>

@@ -7,6 +7,7 @@ import { FaFileAlt } from 'react-icons/fa'
 
 
 export default function Navbar() {
+    //Done
     return (
         <div className=' w-full md:w-[90%] lg:w-[20%]'>
             <div className=' w-full lg:sticky top-7 p-4 pt-9 shadow-xl rounded-lg overflow-hidden bg-gray-700 bg-opacity-30' >

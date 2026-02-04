@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Myskill() {
+    //Done
     return (
         <div>
             <h2 className=' text-yellow-200 text-2xl font-sans font-bold mt-7 mb-5'>My Skills</h2>

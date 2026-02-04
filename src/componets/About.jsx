@@ -48,7 +48,7 @@ export default function About() {
         setIndex((prev) => (prev - 1 + slides.length) % slides.length);
     };
 
-
+    //Done
     return (
         <div className=' py-2 md:px-5 px-2 font-sans'>
             <h2 className=' text-3xl font-bold text-white'>About Me</h2>

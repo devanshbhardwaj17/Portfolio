@@ -1,6 +1,4 @@
 import React from 'react'
-import Desbord from './Desbord'
-import MyPic from '../Photo/Mypic2.jpeg'
 import Navbar from './Navbar/Navbar'
 import Dashboard from './Dashboard/Dashboard'
 import { NavLink } from 'react-router-dom'
@@ -40,7 +38,6 @@ export default function Hero() {
         </ul>
       </div>
       <Dashboard />
-
     </div>
   )
 }

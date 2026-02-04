@@ -3,7 +3,6 @@ import { FaCode } from 'react-icons/fa'
 import ProgrammingCard from './ProgrammingCard'
 import "devicon/devicon.min.css";
 import { DiJava, DiPython, DiMysql, DiMongodb } from 'react-icons/di'
-import { IoCarSharp, IoDiceSharp } from 'react-icons/io5'
 
 
 export default function ProgrammingLanage() {
@@ -38,8 +37,6 @@ export default function ProgrammingLanage() {
                     name="MySQL"
                     logo={<DiMysql />}
                 />
-                
-
             </div>
         </div>
     )

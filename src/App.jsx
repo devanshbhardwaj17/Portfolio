@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Hero from './componets/Hero'
 import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterProvider, Routes } from 'react-router-dom'
-import Desbord from './componets/Desbord'
 import About from './componets/About'
 import Resume from './componets/Resume'
 import Conctact from './componets/Conctact'

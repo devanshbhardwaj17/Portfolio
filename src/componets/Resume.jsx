@@ -1,11 +1,11 @@
 import React from 'react'
-import { FaArrowAltCircleRight, FaArrowRight, FaBook, FaBookDead, FaCircle, FaHandPointRight, FaRegBookmark } from 'react-icons/fa'
-import { FaBookAtlas } from 'react-icons/fa6'
+import {  FaBook,} from 'react-icons/fa'
 import Myskill from './Myskill'
 import Frontend from './Frontend'
 import ProgrammingLanage from './ProgrammingLanage'
 
 export default function Resume() {
+    //Done
     return (
         <div className='py-2 px-2 font-sans'>
             <h2 className=' text-3xl font-bold text-white'>Resume</h2>

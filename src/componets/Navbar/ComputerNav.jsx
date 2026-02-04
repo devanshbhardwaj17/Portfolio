@@ -4,6 +4,7 @@ import Card1 from '../Card/Card1'
 import { FaMapMarkerAlt, FaMobileAlt, FaRegCalendarAlt, FaRegEnvelope } from 'react-icons/fa'
 
 export default function ComputerNav() {
+    //Done
     return (
         <div>
             <div className=' w-full flex flex-wrap gap-4 py-3 mb-4'>

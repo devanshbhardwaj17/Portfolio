@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Card1(props) {
+    //Done
     return (
         <div className=' w-full md:w-auto lg:w-full flex-wrap flex gap-3 overflow-hidden'>
             <div className='  bg-gray-500 bg-opacity-40 text-white p-1 px-2 text-4xl rounded-lg shadow-lg'>
