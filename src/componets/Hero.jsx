@@ -11,6 +11,7 @@ export default function Hero() {
         <ul className=' flex justify-evenly items-center font-sans'>
           <NavLink
             to="/"
+            onClick={()=>{scrollTo(0,800)}}
             className={({ isActive }) => ` ${isActive ? "text-yellow-200 text-xl font-semibold" : " text-white text-lg"}`}
           >
             <li>About</li>
@@ -18,6 +19,7 @@ export default function Hero() {
 
           <NavLink
             to="/resume"
+            onClick={()=>{scrollTo(0,800)}}
             className={({ isActive }) => ` ${isActive ? "text-yellow-200 text-xl font-semibold" : " text-white md:text-lg text-base"}`}
           >
             <li>Resume</li>
@@ -25,12 +27,14 @@ export default function Hero() {
 
           <NavLink
             to="/projects"
+            onClick={()=>{scrollTo(0,800)}}
             className={({ isActive }) => ` ${isActive ? "text-yellow-200 md:text-xl text-lg font-semibold" : " text-white md:text-lg text-base"}`}
           >
             <li>Projects</li>
           </NavLink>
           <NavLink
             to="/contact"
+            onClick={()=>{scrollTo(0,800)}}
             className={({ isActive }) => ` ${isActive ? "text-yellow-200 md:text-xl text-lg font-semibold" : " text-white md:text-lg text-base"}`}
           >
             <li>Contact</li>
