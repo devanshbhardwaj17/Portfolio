@@ -4,7 +4,7 @@ export default function Conctact() {
     //Done
     return (
         <>
-            <div className='py-2 px-2 font-sans'>
+            <div className='py-2 md:px-5 px-2 font-sans'>
                 <h2 className=' text-3xl font-bold text-white'>Contact Me</h2>
                 <div className='w-[10%] p-0.5 bg-[rgb(255,215,0)] my-3 rounded-lg'></div>
             </div>
@@ -23,7 +23,7 @@ export default function Conctact() {
                 <input type="text" name="" id="" placeholder='Name' className=' text-lg md:w-[45%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
                 <input type="text" name="" id="" placeholder='Address' className=' text-lg md:w-[45%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
                 <input type="text" name="" id="" placeholder='Email' className=' text-lg md:w-[45%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-3 my-2' />
-                <input type="text" name="" id="" placeholder='Mobile' className=' text-lg  md:w-[45%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-3 my-2' />
+                <input type='tels' name="" id="" placeholder='Mobile' className=' text-lg  md:w-[45%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-3 my-2' />
                 <textarea name="" id="" rows={8} placeholder='Message' className=' text-lg md:w-[94%] w-full bg-gray-600 bg-opacity-90 p-2 rounded-xl shadow-xl text-white placeholder:text-gray-300 md:my-0 my-2' />
                 <div className=' w-full mt-2 md:px-5 flex justify-center md:justify-end'>
                     <button className='  bg-gray-600 bg-opacity-90 md:text-xl font-semibold font-sans shadow-2xl md:px-3 text-center w-full md:w-auto text-3xl rounded-lg text-yellow-500 flex justify-center md:justify-start gap-3'>

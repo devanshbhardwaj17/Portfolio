@@ -72,8 +72,8 @@ export default function About() {
                     value="I make high-quality photos of any category at a professional level."
                 />
             </div>
-            <h2 className=' text-3xl mt-7 font-bold text-white'>Testimonials</h2>
-            <div className=' hidden lg:flex flex-wrap gap-3 my-3 justify-center'>
+            <h2 className=' hidden text-3xl mt-7 font-bold text-white'>Testimonials</h2>
+            <div className=' hidden flex-wrap gap-3 my-3 justify-center'>
                 {slides.map(a=>(
                     <ReviewCard
                         name={a.name}
@@ -83,7 +83,7 @@ export default function About() {
                     />
                 ))}
             </div>
-            <div className=' lg:hidden flex justify-center items-center py-5'>
+            <div className=' hidden justify-center items-center py-5'>
                 <div className=' w-[320px] bg-gray-800 bg-opacity-50 rounded-xl shadow-xl relative overflow-hidden py-3'>
                     <div
                         className=" flex transition-transform duration-500 ease-in-out"

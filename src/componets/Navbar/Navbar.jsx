@@ -18,7 +18,7 @@ export default function Navbar() {
                     <div className=' md:w-[65%] lg:w-full w-full'>
                         <h1 className=' text-4xl font-semibold text-white lg:text-center text-center md:text-start'>Devansh</h1>
                         <p className=' lg:text-center text-center md:text-start my-3'><span className=' bg-gray-500 bg-opacity-50 px-4 text-white rounded-lg shadow-lg py-0.5'>Web Developer</span></p>
-                        <div className=' my-2 flex flex-wrap justify-center gap-3'>
+                        <div className=' my-2 flex flex-wrap justify-center md:justify-start lg:justify-center gap-3'>
                             <a href="https://www.linkedin.com/in/devansh-bhardwaj29?utm_source=share_via&utm_content=profile&utm_medium=member_android" className=' flex items-center text-lg gap-2 bg-yellow-200 font-semibold px-2 rounded-xl shadow-2xl'><BsBriefcaseFill className=' text-2xl'/>Hire Me</a>
                             <a href="/MyResume.pdf" download className=' flex items-center text-lg gap-2 bg-yellow-200 font-semibold px-2 rounded-xl shadow-2xl'><FaFileAlt/>Resume</a>
 

@@ -7,7 +7,7 @@ import ProgrammingLanage from './ProgrammingLanage'
 export default function Resume() {
     //Done
     return (
-        <div className='py-2 px-2 font-sans'>
+        <div className='py-2 md:px-5 px-2 font-sans'>
             <h2 className=' text-3xl font-bold text-white'>Resume</h2>
             <div className='w-[10%] p-0.5 bg-[rgb(255,215,0)] my-3 rounded-lg'></div>
             <div className=''>
