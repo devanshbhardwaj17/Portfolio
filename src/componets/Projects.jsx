@@ -1,9 +1,9 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
-import WeatherApp from '../Photo/WeatherApp.png'
-import CCA from '../Photo/CCA.png'
-import ATMS from '../Photo/ATMS.png'
-import ASNPS from '../Photo/ASNPublic.png'
+import ProjectCard from "./ProjectCard"
+import WeatherApp from "../Photo/WeatherApp.png"
+import CCA from "../Photo/CCA.png"
+import ATMS from "../Photo/ATMS.png"
+import ASNPS from "../Photo/ASNPublic.png"
 
 
 
