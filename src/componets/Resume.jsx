@@ -1,5 +1,5 @@
 import React from 'react'
-import {  FaBook,} from 'react-icons/fa'
+import {  FaBook, FaBriefcase,} from 'react-icons/fa'
 import Myskill from './Myskill'
 import Frontend from './Frontend'
 import ProgrammingLanage from './ProgrammingLanage'
@@ -56,6 +56,24 @@ export default function Resume() {
                         </div>
                     </div>
                     
+                </div>
+                <div className=' flex items-center gap-4 mt-7'>
+                    <FaBriefcase className=' text-5xl text-white bg-gray-500 bg-opacity-40 p-2 rounded-xl shadow-xl' />
+                    <p className=' text-white text-2xl font-bold'>Experience</p>
+                </div>
+                <div className=' border-l-2 border-white pl-2 pt-5 ml-5'>
+                    <div className=' flex gap-4 mt-7'>
+                        <div>
+                            <div className='p-1.5 bg-gray-500 bg-opacity-40 rounded-full mt-1'>
+                                <div className=' p-2 bg-yellow-100 rounded-full'>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className=' text-xl font-semibold text-yellow-200'>2025-2026</p>
+                            <p className=' text-white text-lg'>Work as a <b>Computer Teacher</b> in <b>ASN Public School</b>.</p>
+                        </div>
+                    </div>
                 </div>
                 <Myskill />
                 <Frontend />
