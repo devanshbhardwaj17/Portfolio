@@ -19,7 +19,8 @@ export default function Conctact() {
 
         const data = await response.json();
         setResult(data.success ? "Success!" : "Error");
-        alert(result)
+        alert(result);
+        event.target.reset();
     };
     //Done
     return (
